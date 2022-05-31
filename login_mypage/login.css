@@ -1,0 +1,114 @@
+body {
+    font-size: 20px;
+    color: gray;
+    background-color: #f8f8f8;
+    margin: 0;
+}
+
+header {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%; 
+    height: 80px; 
+    background-color: #fff;
+    box-shadow: 2px 2px 4px lightgray;
+}
+
+header img {
+    margin-top: 15px;
+    height: 50px;
+    padding-left: 40px;
+}
+
+.login {
+    float: right;
+    margin-top: 40px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+main {
+    margin: 0 auto;
+    border: 2px solid lightgray;
+    width: 50%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    box-shadow: 4px 4px 4px lightgray;
+}
+
+.form_container {
+    margin: 70px 25px 30px;
+}
+
+.information {
+    margin: 40px 60px;
+}
+
+input {
+    height: 30px;
+}
+
+.formbox {
+    width: 100%;
+    border: 1px solid #a9a9a9;
+    font-size: 18px;
+}
+
+.login_check {
+    text-align: left;
+    margin-left: 60px;
+}
+
+.checkbox {
+    position: relative;
+    top: 8px;
+}
+
+.login_button {
+    text-align: center;
+    margin: 30px 0 80px 0;
+}
+
+.submit_button {
+    width: 200px;
+    color: white;
+    background-color: #31A263;
+    border-bottom: 2px solid gray;
+    margin-bottom: 20px;
+    border: 1px solid #31A263;
+    box-shadow: 1px 2px 4px gray;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 20px;
+    color: #fff;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    background-color: #fff;
+    color: gray;
+    text-align: center;
+    line-height: 60px;
+    border-top: 3px solid lightgray;
+    font-size: 15px;
+}
+
+
+/* login_error.php */
+.login_error {
+    margin: 30px 0 80px 0;
+    text-align: center;
+}
+
+.error_message {
+    color: #F00;
+    background-color: #FFCCCC;
+    white-space: nowrap;
+    padding: 8px;
+    margin: 0 20px;
+}
